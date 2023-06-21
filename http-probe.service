@@ -6,8 +6,7 @@ Wants=network-online.target
 [Service]
 Type=simple
 PIDFile=/run/http-probe.pid
-WorkingDirectory=/root/http-probe
-ExecStart=./http-probe
+ExecStart=/root/http-probe/http-probe
 Restart=on-failure
 RestartSec=5s
 
