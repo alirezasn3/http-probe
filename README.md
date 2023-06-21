@@ -1,0 +1,2 @@
+# HTTP Probe
+This is web server that checks if route to the provided IP address in the request's body is accessible over HTTP. Note that this app checks the "route" to the server. So even if the server refuses the connection, the server is still accessible.
